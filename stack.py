@@ -39,6 +39,7 @@ class CircularStack:
             self.front.next = new_node
             new_node.next = self.rear
             self.front = new_node
+            
         if self.size < self.max_size:
             self.size += 1
 
