@@ -4,6 +4,7 @@ class Distance:
     """
     Class to represent a distance measurement with timestamp.
     """
+    
     def __init__(self, distance: float):
         """Initialize the Distance object with distance and timestamp."""
         self.distance = distance
